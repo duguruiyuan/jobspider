@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>xlg_data</string>
+			<key>host</key>
+			<string>123.57.89.95</string>
+			<key>kcid</key>
+			<string>-1508485003786583185</string>
+			<key>name</key>
+			<string>123.57.89.95</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8mb4</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeAClJpZNIeHy0uXxAPTlNN
+			dXRhYmxlU3RyaW5noy0vI1hOU1N0cmluZ9IeHzEyXk5TTXV0YWJs
+			ZUFycmF5ozEzI1dOU0FycmF50h4fIjWiIiNfEA9OU0tleWVkQXJj
+			aGl2ZXLRODlUZGF0YYABAAgAEQAaACMALQAyADcARQBLAFIAWgBl
+			AGwAcAByAHQAdgB6AHwAfgCAAIIAhwCMAJEAugDBAMIAwwDFAMoA
+			1QDeAPQA+AEFAQ4BEwEVARcBGQEeASgBKgEtATIBRAFIAVEBVgFl
+			AWkBcQF2AXkBiwGOAZMAAAAAAAACAQAAAAAAAAA6AAAAAAAAAAAA
+			AAAAAAABlQ==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {931, 485}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>select * from xlg_push where client_id = 3151</string>
+			<key>table</key>
+			<string>xlg_wallet_main</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>202</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>select * from xlg_push where client_id = 3151</string>
+		<string>select * from xlg_client  where id = 3149</string>
+		<string>select * from xlg_wallet_main where uid = 3123</string>
+		<string>select * from xlg_zjz_company where account = 13552072457</string>
+		<string>select * from xlg_zjz_main where  poster_name = '唐文测试1'</string>
+		<string>select *</string>
+		<string>update  xlg_zjz_main set status = 2 where  poster_name = '唐文测试1'</string>
+		<string>select * from xlg_zjz_main where  smsphone = 18610085291</string>
+		<string>select * from xlg_zjz_main where poster_id = 3138</string>
+		<string>cp3138</string>
+		<string>select * from xlg_zjz_main where poster_id = cp3138</string>
+		<string>select * from xlg_urls order by id desc limit 100</string>
+		<string>select * from xlg_zjz_main order by id desc limit 100</string>
+		<string>select * from xlg_zjz_main order by id</string>
+		<string>select * from `xlg_wallet_user_change` left join `xlg_wallet_main` on `xlg_wallet_main`.`id` = `xlg_wallet_user_change`.`wid` where `xlg_wallet_user_change`.`create_time` between '2015-10-28' and '2015-10-29'  
+
+#select * from xlg_wallet_user_change  where create_time = '2015-10-28 15:26:37'</string>
+		<string>/* select * from `xlg_wallet_user_change` left join `xlg_wallet_main` on `xlg_wallet_main`.`id` = `xlg_wallet_user_change`.`wid` where `xlg_wallet_user_change`.`create_time` between '2015-10-28' and '2015-10-29'  */
+
+select * from xlg_wallet_user_change  where create_time = '2015-10-28 15:26:37'</string>
+		<string>select * from `xlg_wallet_user_change` left join `xlg_wallet_main` on `xlg_wallet_main`.`id` = `xlg_wallet_user_change`.`wid` where `xlg_wallet_user_change`.`create_time` between '2015-10-28' and '2015-10-29'</string>
+		<string>select * from `xlg_wallet_user_change` left join `xlg_wallet_main` on `xlg_wallet_main`.`id` = `xlg_wallet_user_change`.`wid` where `xlg_wallet_user_change`.`create_time` between '2015-10-28' and '2015-10-29' order by create_time desc</string>
+		<string>select * from `xlg_wallet_user_change` left join `xlg_wallet_main` on `xlg_wallet_main`.`id` = `xlg_wallet_user_change`.`wid` where `xlg_wallet_user_change`.`create_time` between '2015-10-28' and '2015-10-29' order by create_time</string>
+		<string>29</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.21-log</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

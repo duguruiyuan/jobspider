@@ -1,0 +1,33 @@
+采用php cli 命令行的方式执行
+
+php index.php Xicidaili index
+
+1、php可执行文件 ， 如果写在 crontab 定时任务里面，需要写绝对路径
+2、index.php ci 框架里面的
+3、类名
+4、方法名
+
+爬虫说明
+1、使用了代理
+可能是因为西刺代理的限制，不能直接抓取，解决的办法是，先复制网页，然后执行爬取。复制的网页放在 ，爬虫的根目录下。
+php index.php Xicidaili index
+
+2、需要针对不同的网站写对应的匹配规则
+
+3、执行例子
+php index.php Txbb index --- 爬取列表页里面的url
+php index.php Txbb run   --- 爬取详情页
+
+
+4、部署
+$home_php -- 为服务器上的php可执行文件的路径
+兼职卫士
+$home_php index.php Jzws get_list #获取兼职卫士(http://www.yojianzhi.com/index.php) 列表页里面的链接，地区等信息，保存到urls表中
+$home_php index.php Jzws run #从数据库中读取未抓取的兼职卫士兼职链接，默认为 10000条，执行抓取，并入库到兼职表
+
+同学帮帮
+$home_php index.php Txbb index # 获取列表页
+$home_php index.php Txbb run # 获取详情页
+
+青团社
+$home_php index.php Qtshe run # 通过请求接口的方式抓取，需要调整 jobid_begin
